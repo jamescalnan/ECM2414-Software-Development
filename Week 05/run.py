@@ -16,7 +16,7 @@ c.rule()
 
 # Print the available java apps to run
 for file in files:
-	if "app" in file.lower() and ".java" in file.lower():
+	if ".java" in file.lower():
 		c.print(f"{i} . {file}")
 		available[i] = file
 		i += 1
